@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Reverse rev=new Reverse();
+        rev.reverse();
+
         Condition c=new Condition();
 
         c.ifelseifel();
