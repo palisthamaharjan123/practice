@@ -20,6 +20,7 @@ public class Main {
         a1i.sum(num1,num2);
         a1i.diff(num1,num2);
         a1i.divide();
+        mul();
 
 
         Reverse rev=new Reverse();

@@ -16,4 +16,7 @@ public class A1 implements A{//interface is implemented
             System.out.println("the diff is="+ (num1-num2));
         }
     }
+     static void mul(){
+         System.out.println("the product is="+(4*4));
+    }
 }

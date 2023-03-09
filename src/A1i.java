@@ -3,7 +3,7 @@ public  class A1i implements A,B{
     @Override
     public void sum(int num1, int num2) {
         int num3=90;
-        sum=num1+num2+num3;
+        sum=num1+num2+num3+a;
         System.out.println(sum);
     }
 
