@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+        Array.array();
+
         Scanner s=new Scanner(System.in);
         System.out.println("enter two numbers");
         int num1=s.nextInt();
@@ -20,7 +23,7 @@ public class Main {
         a1i.sum(num1,num2);
         a1i.diff(num1,num2);
         a1i.divide();
-        mul();
+        A1.mul();
 
 
         Reverse rev=new Reverse();
