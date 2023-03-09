@@ -1,6 +1,6 @@
 public class Reverse {
     public void reverse(){
-        int num=456;
+        int num=5764;
         int remainder;
         int reverse=0;
         while(num!=0){

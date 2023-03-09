@@ -3,15 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Reverse rev=new Reverse();
-        rev.reverse();
-
-        Condition c=new Condition();
-
-        c.ifelseifel();
-        Condition1 c1=new Condition1();
-        c1.check();
-
         Scanner s=new Scanner(System.in);
         System.out.println("enter two numbers");
         int num1=s.nextInt();
@@ -21,8 +12,28 @@ public class Main {
         String ch=s.next();
         sw.swit(num1,num2,ch);
 
-          Loop l=new Loop();
-          l.loop();
+
+        A obj=new A1();
+        obj.sum(num1,num2);
+        obj.diff(num1,num2);
+        A1i a1i=new A1i();
+        a1i.sum(num1,num2);
+        a1i.diff(num1,num2);
+        a1i.divide();
+
+
+        Reverse rev=new Reverse();
+        rev.reverse();
+
+        Condition c=new Condition();
+
+        c.ifelseifel();
+        Condition1 c1=new Condition1();
+        c1.check();
+
+
+        Loop l=new Loop();
+        l.loop();
 
         Facty f=new Facty();
         f.fact();

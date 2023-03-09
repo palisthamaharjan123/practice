@@ -6,15 +6,20 @@ public class Loop {
         int a=10;
 
       while(a<10){
-            System.out.println("hii");
+            System.out.println("While");
            a++;
         }
        do {
-           System.out.println("hii");
+           System.out.println("doWhile");
            a++;
        }while(a<10);
+
        for(int i=1;i<10;i++){
-           System.out.println("hii");
+           System.out.println("ForLoop");
+        }
+       int[] array=new int[5];
+        for (int x:array) {
+            System.out.println("for each");
         }
 
     }
