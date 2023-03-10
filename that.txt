@@ -1,0 +1,3 @@
+i am trying to write in this file2 
+this is the next line
+this is a new file
