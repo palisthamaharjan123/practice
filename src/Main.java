@@ -3,6 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        BufferAndBuilder bb=new BufferAndBuilder();
+        bb.buffer();
+        bb.builder();
+
+        AllAboutString abs=new AllAboutString();
+        abs.string();
+
+
         FileHandling myf=new FileHandling();
         myf.file();
 
